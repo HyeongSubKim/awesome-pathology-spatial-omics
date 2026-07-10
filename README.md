@@ -21,7 +21,6 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🧩 Genomic / DNA Language Models](#genomic-language-models) (2)
 - [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (2)
 - [📚 Surveys & Perspectives](#surveys-and-perspectives) (3)
-- [🧠 Core AI & ML Theory](#core-ai-theory) (6)
 
 ---
 
@@ -178,7 +177,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [G-HANet: Histo-Genomic Knowledge Distillation For Cancer Prognosis From Histopathology Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/10830530) | IEEE TMI | — | WSI, Bulk RNA-seq, CNV, Gene mutation status | [[paper]](https://ieeexplore.ieee.org/abstract/document/10830530) |
 | [HFGPI: Advancing Cancer Prognosis with Hierarchical Fusion of Genomic, Proteomic and Pathology Imaging Data from a Systems Biology Perspective](https://arxiv.org/abs/2603.13787) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [[paper]](https://arxiv.org/abs/2603.13787) |
 | [CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis](https://github.com/zdipath/CARE) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/zdipath/CARE) |
-| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |
+| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |ㄴ
 
 [⬆ back to top](#contents)
 
