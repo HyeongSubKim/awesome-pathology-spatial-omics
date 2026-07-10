@@ -68,7 +68,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics](https://github.com/PharMolix/SToFM) | ICML | 2025 | spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/PharMolix/SToFM) |
 | [HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data](https://github.com/Graph-and-Geometric-Learning/HEIST) | ICLR | 2026 | spatial transcriptomics, Proteomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Graph-and-Geometric-Learning/HEIST) |
 | [SEAL: Towards Spatial Transcriptomics-driven Pathology Foundation Models](https://github.com/mahmoodlab/SEAL/) | arxiv | 2026 | spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mahmoodlab/SEAL/) |
-| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |
+
 
 [⬆ back to top](#contents)
 
@@ -178,6 +178,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [G-HANet: Histo-Genomic Knowledge Distillation For Cancer Prognosis From Histopathology Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/10830530) | IEEE TMI | — | WSI, Bulk RNA-seq, CNV, Gene mutation status | [[paper]](https://ieeexplore.ieee.org/abstract/document/10830530) |
 | [HFGPI: Advancing Cancer Prognosis with Hierarchical Fusion of Genomic, Proteomic and Pathology Imaging Data from a Systems Biology Perspective](https://arxiv.org/abs/2603.13787) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [[paper]](https://arxiv.org/abs/2603.13787) |
 | [CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis](https://github.com/zdipath/CARE) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/zdipath/CARE) |
+| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |
 
 [⬆ back to top](#contents)
 
@@ -250,24 +251,6 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [Large Language Models for Transforming Healthcare: A Perspective on DeepSeek-R1](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) | — | 2025 |  | [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) |
 
 [⬆ back to top](#contents)
-
-<a id="core-ai-theory"></a>
-
-## 🧠 Core AI & ML Theory
-
-*Foundational machine-learning papers relevant to the methods above.*
-
-| Title | Venue | Year | Topics | Links |
-|---|:--:|:--:|---|:--:|
-| [The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models](https://github.com/LeapLabTHU/JustGRPO) | ICML | 2026 |  | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/LeapLabTHU/JustGRPO) |
-| [High-accuracy sampling for diffusion models and log-concave distributions](https://arxiv.org/pdf/2602.01338) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.01338) |
-| [How much can language models memorize?](https://arxiv.org/pdf/2505.24832) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2505.24832) |
-| [A Random Matrix Theory Perspective on the Consistency of Diffusion Models](https://arxiv.org/pdf/2602.02908) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.02908) |
-| [To Grok Grokking: Provable Grokking in Ridge Regression](https://arxiv.org/pdf/2601.19791) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2601.19791) |
-| [Asynchronous Methods for Deep Reinforcement Learning](https://proceedings.mlr.press/v48/mniha16.pdf) | ICML | 2016 |  | [[paper]](https://proceedings.mlr.press/v48/mniha16.pdf) |
-
-[⬆ back to top](#contents)
-
 ---
 
 ## Legend
