@@ -1154,5 +1154,17 @@
     "link": "https://github.com/HyeongSubKim/GeneRAG",
     "Affiliation": "SNU AIBL",
     "Date": ""
+  },
+  {
+    "Title": "Orthrus: toward evolutionary and functional RNA foundation models",
+    "Year": 2026,
+    "Journal": "Nature Methods",
+    "Key word": "RNA,FM,Mamba",
+    "Git repository": "https://github.com/bowang-lab/Orthrus",
+    "Summary": "Mamba state-space RNA foundation model pretrained on mature mRNA sequences with linear memory scaling, for mRNA property prediction (half-life, ribosome load, etc.).",
+    "Comments": "",
+    "link": "https://github.com/bowang-lab/Orthrus",
+    "Affiliation": "Bo Wang Lab",
+    "Date": ""
   }
 ]

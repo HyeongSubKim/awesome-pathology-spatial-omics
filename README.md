@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-89-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-90-blue) ![with%20code](https://img.shields.io/badge/with%20code-53-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -10,17 +10,18 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 - [🧬 Single-cell Foundation Models](#single-cell-foundation-models) (8)
 - [🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)](#pathology-foundation-models) (2)
-- [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (3)
+- [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (4)
 - [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (19)
 - [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (9)
 - [🔎 Single-cell Analysis & Dynamics](#single-cell-analysis) (9)
 - [🧫 Computational Pathology (WSI)](#computational-pathology-wsi) (13)
-- [🔗 Multimodal Histo-Genomic Fusion & Prognosis](#multimodal-histo-genomics) (5)
+- [🔗 Multimodal Histo-Genomic Fusion & Prognosis](#multimodal-histo-genomics) (4)
 - [🤖 LLM Agents & Reasoning](#agents-and-reasoning) (4)
 - [💡 Interpretability & Sparse Autoencoders](#interpretability-sae) (4)
-- [🧩 Genomic / DNA Language Models](#genomic-language-models) (2)
+- [🧩 Genomic Sequence Foundation Models (DNA & RNA)](#genomic-language-models) (3)
 - [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (2)
 - [📚 Surveys & Perspectives](#surveys-and-perspectives) (3)
+- [🧠 Core AI & ML Theory](#core-ai-theory) (6)
 
 ---
 
@@ -67,7 +68,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics](https://github.com/PharMolix/SToFM) | ICML | 2025 | spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/PharMolix/SToFM) |
 | [HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data](https://github.com/Graph-and-Geometric-Learning/HEIST) | ICLR | 2026 | spatial transcriptomics, Proteomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Graph-and-Geometric-Learning/HEIST) |
 | [SEAL: Towards Spatial Transcriptomics-driven Pathology Foundation Models](https://github.com/mahmoodlab/SEAL/) | arxiv | 2026 | spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mahmoodlab/SEAL/) |
-
+| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |
 
 [⬆ back to top](#contents)
 
@@ -177,7 +178,6 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [G-HANet: Histo-Genomic Knowledge Distillation For Cancer Prognosis From Histopathology Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/10830530) | IEEE TMI | — | WSI, Bulk RNA-seq, CNV, Gene mutation status | [[paper]](https://ieeexplore.ieee.org/abstract/document/10830530) |
 | [HFGPI: Advancing Cancer Prognosis with Hierarchical Fusion of Genomic, Proteomic and Pathology Imaging Data from a Systems Biology Perspective](https://arxiv.org/abs/2603.13787) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [[paper]](https://arxiv.org/abs/2603.13787) |
 | [CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis](https://github.com/zdipath/CARE) | CVPR | 2026 | Bulk RNA-seq, Proteomics, WSI | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/zdipath/CARE) |
-| [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://zitniklab.hms.harvard.edu/SPATIA/) | ICML | 2026 | spatial transcriptomics | [[paper]](https://zitniklab.hms.harvard.edu/SPATIA/) |ㄴ
 
 [⬆ back to top](#contents)
 
@@ -213,12 +213,13 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 <a id="genomic-language-models"></a>
 
-## 🧩 Genomic / DNA Language Models
+## 🧩 Genomic Sequence Foundation Models (DNA & RNA)
 
-*Tokenization, representation and evaluation of DNA / genomic foundation models.*
+*Tokenization, representation and evaluation of DNA / RNA sequence foundation models.*
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
+| [Orthrus: toward evolutionary and functional RNA foundation models](https://github.com/bowang-lab/Orthrus) | Nature Methods | 2026 | RNA, FM, Mamba | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/Orthrus) |
 | [PatchDNA: A Flexible and Biologically-Informed Alternative to Tokenization for DNA](https://openreview.net/forum?id=AFZeojzjoG) | ICLR | 2026 |  | [[paper]](https://openreview.net/forum?id=AFZeojzjoG) |
 | [TOKENIZATION TO TRANSFER: DO GENOMIC FOUNDATION MODELS LEARN GOOD REPRESENTATIONS?](https://github.com/m42-health/gfm-random-eval) | ICLR | 2026 |  | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/m42-health/gfm-random-eval) |
 
@@ -250,6 +251,24 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [Large Language Models for Transforming Healthcare: A Perspective on DeepSeek-R1](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) | — | 2025 |  | [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) |
 
 [⬆ back to top](#contents)
+
+<a id="core-ai-theory"></a>
+
+## 🧠 Core AI & ML Theory
+
+*Foundational machine-learning papers relevant to the methods above.*
+
+| Title | Venue | Year | Topics | Links |
+|---|:--:|:--:|---|:--:|
+| [The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models](https://github.com/LeapLabTHU/JustGRPO) | ICML | 2026 |  | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/LeapLabTHU/JustGRPO) |
+| [High-accuracy sampling for diffusion models and log-concave distributions](https://arxiv.org/pdf/2602.01338) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.01338) |
+| [How much can language models memorize?](https://arxiv.org/pdf/2505.24832) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2505.24832) |
+| [A Random Matrix Theory Perspective on the Consistency of Diffusion Models](https://arxiv.org/pdf/2602.02908) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.02908) |
+| [To Grok Grokking: Provable Grokking in Ridge Regression](https://arxiv.org/pdf/2601.19791) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2601.19791) |
+| [Asynchronous Methods for Deep Reinforcement Learning](https://proceedings.mlr.press/v48/mniha16.pdf) | ICML | 2016 |  | [[paper]](https://proceedings.mlr.press/v48/mniha16.pdf) |
+
+[⬆ back to top](#contents)
+
 ---
 
 ## Legend
