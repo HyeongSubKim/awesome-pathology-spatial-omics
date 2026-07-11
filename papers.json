@@ -1007,7 +1007,7 @@
     "Key word": "sc RNA-seq,FM",
     "Date": "",
     "Journal": "Nature",
-    "Git repository": "",
+    "Git repository": "https://github.com/snap-stanford/UCE",
     "Summary": "",
     "Comments": "UCE는 전 세계의 다양한 단일 세포 RNA 시퀀싱(scRNA-seq) 데이터를 하나의 통일된 공간에서 분석할 수 있게 해주는 도구로, 희귀 세포 타입(예: Norn cell)의 발견이나 질병의 기전 분석, 교차 종(cross-species) 연구에 있어 매우 강력한 가설 생성 및 분석 기반을 제공하는 것이 핵심",
     "link": "https://www.nature.com/articles/s41586-026-10689-z",

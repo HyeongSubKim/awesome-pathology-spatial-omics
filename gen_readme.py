@@ -62,13 +62,22 @@ def is_code(url):
 
 
 def links_md(r):
-    url = norm(r.get("link"))
+    """Render up to two badges: a paper link and a code link.
+
+    `link` holds the primary URL (paper or code); `Git repository` may add a
+    separate code repo, so an entry can show both a paper and a code badge.
+    """
+    link = norm(r.get("link"))
+    git = norm(r.get("Git repository"))
+    paper_url = "" if is_code(link) else link
+    code_url = link if is_code(link) else ""
+    if git and is_code(git):
+        code_url = git
     parts = []
-    if url:
-        if is_code(url):
-            parts.append(f"[![code](https://img.shields.io/badge/code-black?logo=github)]({url})")
-        else:
-            parts.append(f"[[paper]]({url})")
+    if paper_url:
+        parts.append(f"[[paper]]({paper_url})")
+    if code_url:
+        parts.append(f"[![code](https://img.shields.io/badge/code-black?logo=github)]({code_url})")
     return " ".join(parts) if parts else "—"
 
 
