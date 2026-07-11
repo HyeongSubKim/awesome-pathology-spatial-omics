@@ -8,7 +8,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 ## Contents
 
-- [🧬 Single-cell Foundation Models](#single-cell-foundation-models) (8)
+- [🧬 Single-cell & RNA Foundation Models](#single-cell-foundation-models) (9)
 - [🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)](#pathology-foundation-models) (2)
 - [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (4)
 - [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (19)
@@ -18,7 +18,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🔗 Multimodal Histo-Genomic Fusion & Prognosis](#multimodal-histo-genomics) (4)
 - [🤖 LLM Agents & Reasoning](#agents-and-reasoning) (4)
 - [💡 Interpretability & Sparse Autoencoders](#interpretability-sae) (4)
-- [🧩 Genomic Sequence Foundation Models (DNA & RNA)](#genomic-language-models) (3)
+- [🧩 Genomic / DNA Language Models](#genomic-language-models) (2)
 - [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (2)
 - [📚 Surveys & Perspectives](#surveys-and-perspectives) (3)
 - [🧠 Core AI & ML Theory](#core-ai-theory) (6)
@@ -27,9 +27,9 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 <a id="single-cell-foundation-models"></a>
 
-## 🧬 Single-cell Foundation Models
+## 🧬 Single-cell & RNA Foundation Models
 
-*Transcriptome-scale pretrained models for single-cell RNA-seq and multi-omics.*
+*Transcriptome-scale pretrained models for single-cell RNA-seq, multi-omics and mRNA sequences.*
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
@@ -41,6 +41,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities](https://github.com/portrai-io/CELLama) | Advanced Science | 2025 | sc RNA-seq, FM, spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/portrai-io/CELLama) |
 | [UCE: Universal cell embedding provides a foundation model for cell biology](https://www.nature.com/articles/s41586-026-10689-z) | Nature | 2026 | sc RNA-seq, FM | [[paper]](https://www.nature.com/articles/s41586-026-10689-z) |
 | [TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution](https://github.com/czi-ai/transcriptformer) | Science | 2026 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/czi-ai/transcriptformer) |
+| [Orthrus: toward evolutionary and functional RNA foundation models](https://github.com/bowang-lab/Orthrus) | Nature Methods | 2026 | RNA, FM, Mamba | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/Orthrus) |
 
 [⬆ back to top](#contents)
 
@@ -213,13 +214,12 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 <a id="genomic-language-models"></a>
 
-## 🧩 Genomic Sequence Foundation Models (DNA & RNA)
+## 🧩 Genomic / DNA Language Models
 
-*Tokenization, representation and evaluation of DNA / RNA sequence foundation models.*
+*Tokenization, representation and evaluation of DNA / genomic foundation models.*
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
-| [Orthrus: toward evolutionary and functional RNA foundation models](https://github.com/bowang-lab/Orthrus) | Nature Methods | 2026 | RNA, FM, Mamba | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/Orthrus) |
 | [PatchDNA: A Flexible and Biologically-Informed Alternative to Tokenization for DNA](https://openreview.net/forum?id=AFZeojzjoG) | ICLR | 2026 |  | [[paper]](https://openreview.net/forum?id=AFZeojzjoG) |
 | [TOKENIZATION TO TRANSFER: DO GENOMIC FOUNDATION MODELS LEARN GOOD REPRESENTATIONS?](https://github.com/m42-health/gfm-random-eval) | ICLR | 2026 |  | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/m42-health/gfm-random-eval) |
 

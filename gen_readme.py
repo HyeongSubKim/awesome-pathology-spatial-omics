@@ -10,9 +10,9 @@ P = {i + 1: r for i, r in enumerate(rows)}
 
 # Category -> ordered list of paper indices (each paper appears exactly once)
 CATS = [
-    ("single-cell-foundation-models", "🧬 Single-cell Foundation Models",
-     "Transcriptome-scale pretrained models for single-cell RNA-seq and multi-omics.",
-     [82, 81, 86, 87, 83, 88, 84, 85]),
+    ("single-cell-foundation-models", "🧬 Single-cell & RNA Foundation Models",
+     "Transcriptome-scale pretrained models for single-cell RNA-seq, multi-omics and mRNA sequences.",
+     [82, 81, 86, 87, 83, 88, 84, 85, 90]),
     ("pathology-foundation-models", "🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)",
      "Slide-level pathology FMs built via knowledge distillation from expert vision models "
      "(GPFM) and via multimodal knowledge injection from gene expression + pathology reports (mSTAR).",
@@ -41,9 +41,9 @@ CATS = [
     ("interpretability-sae", "💡 Interpretability & Sparse Autoencoders",
      "Concept discovery and mechanistic interpretability of pathology / bio foundation models.",
      [5, 28, 62, 80]),
-    ("genomic-language-models", "🧩 Genomic Sequence Foundation Models (DNA & RNA)",
-     "Tokenization, representation and evaluation of DNA / RNA sequence foundation models.",
-     [90, 43, 45]),
+    ("genomic-language-models", "🧩 Genomic / DNA Language Models",
+     "Tokenization, representation and evaluation of DNA / genomic foundation models.",
+     [43, 45]),
     ("benchmarks-datasets-tools", "🏁 Benchmarks, Datasets & Toolkits",
      "Open benchmarks, multicentric datasets and data-processing toolkits.",
      [33, 39]),
