@@ -981,7 +981,7 @@
     "Key word": "sc RNA-seq,FM",
     "Date": "",
     "Journal": "Nature",
-    "Git repository": "",
+    "Git repository": "https://github.com/epigen/Geneformer",
     "Summary": "",
     "Comments": "대규모 단일 세포 전사체(single-cell transcriptome) 데이터를 사전 학습(pretraining)하여, 데이터가 극히 부족한 환경에서도 네트워크 생물학(network biology)의 다양한 과제를 정확하게 예측할 수 있는 딥러닝 모델인 'Geneformer'의 개발과 그 유용성을 입증",
     "link": "https://www.nature.com/articles/s41586-023-06139-9",

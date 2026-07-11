@@ -32,7 +32,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
-| [Geneformer: Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) | Nature | 2023 | sc RNA-seq, FM | [[paper]](https://www.nature.com/articles/s41586-023-06139-9) |
+| [Geneformer: Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) | Nature | 2023 | sc RNA-seq, FM | [[paper]](https://www.nature.com/articles/s41586-023-06139-9) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/epigen/Geneformer) |
 | [scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI](https://github.com/bowang-lab/scgpt) | Nature Methods | 2024 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/scgpt) |
 | [scMulan: A Multitask Generative Pre-trained Language Model for Single-Cell Analysis](https://github.com/SuperBianC/scMulan) | RECOMB | 2024 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SuperBianC/scMulan) |
 | [Cell2Sentence: Single-cell Analysis With LLMs](https://github.com/vandijklab/cell2sentence) | bioRxiv | 2025 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/vandijklab/cell2sentence) |
