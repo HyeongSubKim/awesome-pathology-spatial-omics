@@ -945,7 +945,7 @@
     "Git repository": "",
     "Summary": "",
     "Comments": "\n미관측 유전자의 전사체 프로파일을 예측(open-set)하도록 설계된 검색 증강 생성(RAG) 프레임워크인 GSAT-RAG를 제안합니다. GSAT-RAG의 핵심은 단일 세포 RNA 시퀀싱(scRNA-seq) 데이터로 사전 학습된 인코더-디코더 아키텍처인 GSAT(Gene Set-Aware Transcriptomic model)입니다. GSAT는 유전자 세트의 구성과 무관하게 불변하는(invariant) 유전자 표현형(representation)을 학습하여 강력한 일반화 성능을 확보합니다.\n\n",
-    "link": "",
+    "link": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Wu_Open-Set_Spatial_Gene_Expression_Prediction_from_Histological_Images_via_Retrieval-Augmented_CVPRF_2026_paper.pdf",
     "Title": "GSAT-RAG: Open-Set Spatial Gene Expression Prediction from Histological Images via Retrieval-Augmented Generation"
   },
   {
