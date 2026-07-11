@@ -12,7 +12,7 @@ P = {i + 1: r for i, r in enumerate(rows)}
 CATS = [
     ("single-cell-foundation-models", "🧬 Single-cell & RNA Foundation Models",
      "Transcriptome-scale pretrained models for single-cell RNA-seq, multi-omics and mRNA sequences.",
-     [82, 81, 86, 87, 83, 88, 84, 85, 90]),
+     [76, 75, 80, 81, 77, 82, 78, 79, 84]),
     ("pathology-foundation-models", "🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)",
      "Slide-level pathology FMs built via knowledge distillation from expert vision models "
      "(GPFM) and via multimodal knowledge injection from gene expression + pathology reports (mSTAR).",
@@ -22,7 +22,7 @@ CATS = [
      [70, 41, 35, 24]),
     ("histology-to-gene-expression", "🖼️➡️🧬 Histology → Gene Expression Prediction",
      "Predicting spatial / bulk gene expression directly from H&E whole-slide images (a.k.a. H2ST).",
-     [89, 40, 78, 4, 19, 27, 46, 47, 29, 61, 54, 55, 57, 51, 52, 53, 59, 56, 79]),
+     [83, 40, 72, 4, 19, 27, 46, 47, 29, 61, 54, 55, 57, 51, 52, 53, 59, 56, 73]),
     ("spatial-transcriptomics-analysis", "📈 Spatial Transcriptomics Analysis",
      "Denoising, imputation, representation learning, niche & region modeling on ST data.",
      [69, 71, 18, 25, 65, 64, 63, 49, 67]),
@@ -40,7 +40,7 @@ CATS = [
      [37, 30, 26, 36]),
     ("interpretability-sae", "💡 Interpretability & Sparse Autoencoders",
      "Concept discovery and mechanistic interpretability of pathology / bio foundation models.",
-     [5, 28, 62, 80]),
+     [5, 28, 62, 74]),
     ("genomic-language-models", "🧩 Genomic / DNA Language Models",
      "Tokenization, representation and evaluation of DNA / genomic foundation models.",
      [43, 45]),
@@ -50,9 +50,6 @@ CATS = [
     ("surveys-and-perspectives", "📚 Surveys & Perspectives",
      "Review articles and perspectives on the field.",
      [13, 6, 12]),
-    ("core-ai-theory", "🧠 Core AI & ML Theory",
-     "Foundational machine-learning papers relevant to the methods above.",
-     [72, 73, 74, 75, 76, 77]),
 ]
 
 

@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-90-blue) ![with%20code](https://img.shields.io/badge/with%20code-53-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-84-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -21,7 +21,6 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🧩 Genomic / DNA Language Models](#genomic-language-models) (2)
 - [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (2)
 - [📚 Surveys & Perspectives](#surveys-and-perspectives) (3)
-- [🧠 Core AI & ML Theory](#core-ai-theory) (6)
 
 ---
 
@@ -249,23 +248,6 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | [A Survey of Pathology Foundation Model: Progress and Future Directions](https://arxiv.org/abs/2504.04045) | arxiv | 2025 |  | [[paper]](https://arxiv.org/abs/2504.04045) |
 | [A Survey on Foundation Language Models for Single-cell Biology](https://aclanthology.org/2025.acl-long.26.pdf) | ACL | 2025 | sc RNA-seq | [[paper]](https://aclanthology.org/2025.acl-long.26.pdf) |
 | [Large Language Models for Transforming Healthcare: A Perspective on DeepSeek-R1](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) | — | 2025 |  | [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.70021) |
-
-[⬆ back to top](#contents)
-
-<a id="core-ai-theory"></a>
-
-## 🧠 Core AI & ML Theory
-
-*Foundational machine-learning papers relevant to the methods above.*
-
-| Title | Venue | Year | Topics | Links |
-|---|:--:|:--:|---|:--:|
-| [The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models](https://github.com/LeapLabTHU/JustGRPO) | ICML | 2026 |  | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/LeapLabTHU/JustGRPO) |
-| [High-accuracy sampling for diffusion models and log-concave distributions](https://arxiv.org/pdf/2602.01338) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.01338) |
-| [How much can language models memorize?](https://arxiv.org/pdf/2505.24832) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2505.24832) |
-| [A Random Matrix Theory Perspective on the Consistency of Diffusion Models](https://arxiv.org/pdf/2602.02908) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2602.02908) |
-| [To Grok Grokking: Provable Grokking in Ridge Regression](https://arxiv.org/pdf/2601.19791) | ICML | 2026 |  | [[paper]](https://arxiv.org/pdf/2601.19791) |
-| [Asynchronous Methods for Deep Reinforcement Learning](https://proceedings.mlr.press/v48/mniha16.pdf) | ICML | 2016 |  | [[paper]](https://proceedings.mlr.press/v48/mniha16.pdf) |
 
 [⬆ back to top](#contents)
 
