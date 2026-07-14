@@ -1096,10 +1096,10 @@
     "Key word": "spatial transcriptomics",
     "Date": "",
     "Journal": "Bioinformatics",
-    "Git repository": "",
+    "Git repository": "https://github.com/ratschlab/aestetik",
     "Summary": "",
     "Comments": "",
-    "link": "https://github.com/ratschlab/aestetik",
+    "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433",
     "Title": "AESTETIK: AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge"
   }
 ]
