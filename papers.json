@@ -1091,15 +1091,15 @@
   },
   {
     "": "85",
-    "Year": "2024",
+    "Year": "2026",
     "Affiliation": "",
     "Key word": "spatial transcriptomics",
     "Date": "",
-    "Journal": "medRxiv",
+    "Journal": "Bioinformatics",
     "Git repository": "https://github.com/ratschlab/aestetik",
     "Summary": "",
     "Comments": "",
-    "link": "https://www.medrxiv.org/content/10.1101/2024.06.04.24308256v1",
+    "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433",
     "Title": "Representation learning for multi-modal spatially resolved transcriptomics data"
   }
 ]
