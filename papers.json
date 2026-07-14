@@ -1096,10 +1096,10 @@
     "Key word": "spatial transcriptomics,H2ST,sc RNA-seq",
     "Date": "",
     "Journal": "bioRxiv",
-    "Git repository": "",
+    "Git repository": "https://github.com/ratschlab/DeepSpot2Cell",
     "Summary": "",
     "Comments": "",
-    "link": "https://github.com/ratschlab/DeepSpot2Cell",
+    "link": "https://www.biorxiv.org/content/10.1101/2025.09.23.678121v2",
     "Title": "DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision"
   }
 ]
