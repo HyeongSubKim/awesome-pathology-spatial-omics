@@ -1088,5 +1088,18 @@
     "link": "https://github.com/bowang-lab/Orthrus",
     "Affiliation": "Bo Wang Lab",
     "Date": ""
+  },
+  {
+    "": "85",
+    "Year": "2026",
+    "Affiliation": "",
+    "Key word": "spatial transcriptomics,H2ST,FM",
+    "Date": "",
+    "Journal": "medRxiv",
+    "Git repository": "",
+    "Summary": "",
+    "Comments": "",
+    "link": "https://github.com/ratschlab/DeepSpotM",
+    "Title": "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology"
   }
 ]
