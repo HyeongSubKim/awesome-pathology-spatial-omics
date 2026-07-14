@@ -26,7 +26,7 @@ CATS = [
      [85, 83, 40, 72, 4, 19, 27, 46, 47, 29, 61, 54, 55, 57, 51, 52, 53, 59, 56, 73]),
     ("spatial-transcriptomics-analysis", "📈 Spatial Transcriptomics Analysis",
      "Denoising, imputation, representation learning, niche & region modeling on ST data.",
-     [69, 71, 18, 25, 65, 64, 63, 49, 67]),
+     [69, 71, 18, 25, 85, 65, 64, 63, 49, 67]),
     ("single-cell-analysis", "🔎 Single-cell Analysis & Dynamics",
      "Trajectories, gene regulatory networks, generation, perturbation and continual learning.",
      [42, 21, 32, 23, 22, 44, 66, 60, 68]),

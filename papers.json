@@ -1111,5 +1111,10 @@
     "Git repository": "https://github.com/ratschlab/DeepSpot2Cell",
     "link": "https://openreview.net/forum?id=ofCkwXQKaz",
     "Title": "DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision"
+    "Key word": "spatial transcriptomics",
+    "Journal": "Bioinformatics",
+    "Git repository": "https://github.com/ratschlab/aestetik",
+    "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433",
+    "Title": "Representation learning for multi-modal spatially resolved transcriptomics data"
   }
 ]
