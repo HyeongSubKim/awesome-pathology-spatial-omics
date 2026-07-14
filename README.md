@@ -80,6 +80,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
+| [DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) | medRxiv | 2026 | spatial transcriptomics, H2ST, FM | [[paper]](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
 | [GeneRAG: A Retrieval-Augmented Framework for Spatially Resolved Gene Expression Prediction](https://github.com/HyeongSubKim/GeneRAG) | MICCAI | 2026 | spatial transcriptomics, H2ST, RAG, zero-shot | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/HyeongSubKim/GeneRAG) |
 | [STAMP: Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](https://github.com/Hanminghao/STAMP) | ICLR | 2026 | spatial transcriptomics, dataset | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Hanminghao/STAMP) |
 | [DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3) | medRxiv | 2025 | spatial transcriptomics, H2ST | [[paper]](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpot) |

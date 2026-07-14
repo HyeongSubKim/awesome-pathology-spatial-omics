@@ -1101,5 +1101,10 @@
     "Comments": "",
     "link": "https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3",
     "Title": "DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images"
+    "Year": "2026",
+    "Key word": "spatial transcriptomics,H2ST,FM",
+    "Git repository": "https://github.com/ratschlab/DeepSpotM",
+    "link": "https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1",
+    "Title": "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology"
   }
 ]

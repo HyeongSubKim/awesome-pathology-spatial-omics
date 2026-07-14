@@ -23,6 +23,7 @@ CATS = [
     ("histology-to-gene-expression", "🖼️➡️🧬 Histology → Gene Expression Prediction",
      "Predicting spatial / bulk gene expression directly from H&E whole-slide images (a.k.a. H2ST).",
      [83, 40, 85, 72, 4, 19, 27, 46, 47, 29, 61, 54, 55, 57, 51, 52, 53, 59, 56, 73]),
+     [85, 83, 40, 72, 4, 19, 27, 46, 47, 29, 61, 54, 55, 57, 51, 52, 53, 59, 56, 73]),
     ("spatial-transcriptomics-analysis", "📈 Spatial Transcriptomics Analysis",
      "Denoising, imputation, representation learning, niche & region modeling on ST data.",
      [69, 71, 18, 25, 65, 64, 63, 49, 67]),
