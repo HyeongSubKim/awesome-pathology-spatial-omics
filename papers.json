@@ -1096,10 +1096,10 @@
     "Key word": "spatial transcriptomics,H2ST",
     "Date": "",
     "Journal": "medRxiv",
-    "Git repository": "",
+    "Git repository": "https://github.com/ratschlab/DeepSpot",
     "Summary": "",
     "Comments": "",
-    "link": "https://github.com/ratschlab/DeepSpot",
+    "link": "https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3",
     "Title": "DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images"
   }
 ]
