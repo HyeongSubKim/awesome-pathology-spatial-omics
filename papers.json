@@ -1088,5 +1088,18 @@
     "link": "https://github.com/bowang-lab/Orthrus",
     "Affiliation": "Bo Wang Lab",
     "Date": ""
+  },
+  {
+    "": "85",
+    "Year": "2026",
+    "Affiliation": "",
+    "Key word": "spatial transcriptomics",
+    "Date": "",
+    "Journal": "Bioinformatics",
+    "Git repository": "",
+    "Summary": "",
+    "Comments": "",
+    "link": "https://github.com/ratschlab/aestetik",
+    "Title": "AESTETIK: AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge"
   }
 ]
