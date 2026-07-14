@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-84-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-85-blue) ![with%20code](https://img.shields.io/badge/with%20code-53-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -11,7 +11,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🧬 Single-cell & RNA Foundation Models](#single-cell-foundation-models) (9)
 - [🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)](#pathology-foundation-models) (2)
 - [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (4)
-- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (19)
+- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (20)
 - [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (9)
 - [🔎 Single-cell Analysis & Dynamics](#single-cell-analysis) (9)
 - [🧫 Computational Pathology (WSI)](#computational-pathology-wsi) (13)
@@ -32,13 +32,13 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
-| [Geneformer: Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) | Nature | 2023 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/epigen/Geneformer) |
+| [Geneformer: Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) | Nature | 2023 | sc RNA-seq, FM | [[paper]](https://www.nature.com/articles/s41586-023-06139-9) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/epigen/Geneformer) |
 | [scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI](https://github.com/bowang-lab/scgpt) | Nature Methods | 2024 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/scgpt) |
 | [scMulan: A Multitask Generative Pre-trained Language Model for Single-Cell Analysis](https://github.com/SuperBianC/scMulan) | RECOMB | 2024 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/SuperBianC/scMulan) |
 | [Cell2Sentence: Single-cell Analysis With LLMs](https://github.com/vandijklab/cell2sentence) | bioRxiv | 2025 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/vandijklab/cell2sentence) |
 | [AIDO.Cell: Scaling Dense Representations for Single Cell with Transcriptome-Scale Context](https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1.full.pdf) | NeurIPS | 2024 | Whole Transcriptome, FM, sc RNA-seq | [[paper]](https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1.full.pdf) |
 | [CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities](https://github.com/portrai-io/CELLama) | Advanced Science | 2025 | sc RNA-seq, FM, spatial transcriptomics | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/portrai-io/CELLama) |
-| [UCE: Universal cell embedding provides a foundation model for cell biology](https://www.nature.com/articles/s41586-026-10689-z) | Nature | 2026 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/snap-stanford/UCE) |
+| [UCE: Universal cell embedding provides a foundation model for cell biology](https://www.nature.com/articles/s41586-026-10689-z) | Nature | 2026 | sc RNA-seq, FM | [[paper]](https://www.nature.com/articles/s41586-026-10689-z) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/snap-stanford/UCE) |
 | [TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution](https://github.com/czi-ai/transcriptformer) | Science | 2026 | sc RNA-seq, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/czi-ai/transcriptformer) |
 | [Orthrus: toward evolutionary and functional RNA foundation models](https://github.com/bowang-lab/Orthrus) | Nature Methods | 2026 | RNA, FM, Mamba | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/bowang-lab/Orthrus) |
 
@@ -82,6 +82,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 |---|:--:|:--:|---|:--:|
 | [GeneRAG: A Retrieval-Augmented Framework for Spatially Resolved Gene Expression Prediction](https://github.com/HyeongSubKim/GeneRAG) | MICCAI | 2026 | spatial transcriptomics, H2ST, RAG, zero-shot | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/HyeongSubKim/GeneRAG) |
 | [STAMP: Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](https://github.com/Hanminghao/STAMP) | ICLR | 2026 | spatial transcriptomics, dataset | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Hanminghao/STAMP) |
+| [DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images](https://github.com/ratschlab/DeepSpot) | medRxiv | 2025 | spatial transcriptomics, H2ST | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpot) |
 | [Prior knowledge Injection into Deep Learning Models Predicting Gene Expression from Whole Slide Images](https://arxiv.org/pdf/2501.14056) | arxiv | 2025 | spatial transcriptomics, H2ST, Knowledge Injection | [[paper]](https://arxiv.org/pdf/2501.14056) |
 | [GenAR: Next-Scale Autoregressive Generation for Spatial Gene Expression Prediction](https://github.com/oyjr/genar) | arxiv | 2025 | spatial transcriptomics, H2ST | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/oyjr/genar) |
 | [FLAG: Foundation model representation with Latent diffusion Alignment via Graph for spatial gene expression prediction](https://icml.cc/virtual/2026/poster/60603) | ICML | 2026 | spatial transcriptomics, H2ST | [[paper]](https://icml.cc/virtual/2026/poster/60603) |
