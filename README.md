@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-85-blue) ![with%20code](https://img.shields.io/badge/with%20code-53-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-85-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -80,7 +80,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
-| [DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology](https://github.com/ratschlab/DeepSpotM) | medRxiv | 2026 | spatial transcriptomics, H2ST, FM | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
+| [DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) | medRxiv | 2026 | spatial transcriptomics, H2ST, FM | [[paper]](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
 | [GeneRAG: A Retrieval-Augmented Framework for Spatially Resolved Gene Expression Prediction](https://github.com/HyeongSubKim/GeneRAG) | MICCAI | 2026 | spatial transcriptomics, H2ST, RAG, zero-shot | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/HyeongSubKim/GeneRAG) |
 | [STAMP: Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](https://github.com/Hanminghao/STAMP) | ICLR | 2026 | spatial transcriptomics, dataset | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Hanminghao/STAMP) |
 | [Prior knowledge Injection into Deep Learning Models Predicting Gene Expression from Whole Slide Images](https://arxiv.org/pdf/2501.14056) | arxiv | 2025 | spatial transcriptomics, H2ST, Knowledge Injection | [[paper]](https://arxiv.org/pdf/2501.14056) |
