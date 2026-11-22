@@ -1101,20 +1101,83 @@
     "Comments": "",
     "link": "https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3",
     "Title": "DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images"
+  },
+  {
+    "": "86",
     "Year": "2026",
+    "Affiliation": "",
     "Key word": "spatial transcriptomics,H2ST,FM",
+    "Date": "",
+    "Journal": "medRxiv",
     "Git repository": "https://github.com/ratschlab/DeepSpotM",
+    "Summary": "",
+    "Comments": "",
     "link": "https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1",
     "Title": "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology"
+  },
+  {
+    "": "87",
+    "Year": "2025",
+    "Affiliation": "",
     "Key word": "spatial transcriptomics,H2ST,sc RNA-seq",
+    "Date": "",
     "Journal": "NeurIPS",
     "Git repository": "https://github.com/ratschlab/DeepSpot2Cell",
+    "Summary": "",
+    "Comments": "",
     "link": "https://openreview.net/forum?id=ofCkwXQKaz",
     "Title": "DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision"
+  },
+  {
+    "": "88",
+    "Year": "2026",
+    "Affiliation": "",
     "Key word": "spatial transcriptomics",
+    "Date": "",
     "Journal": "Bioinformatics",
     "Git repository": "https://github.com/ratschlab/aestetik",
+    "Summary": "",
+    "Comments": "",
     "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433",
     "Title": "Representation learning for multi-modal spatially resolved transcriptomics data"
+  },
+  {
+    "": "89",
+    "Year": "2026",
+    "Affiliation": "",
+    "Key word": "spatial transcriptomics,H2ST,kidney",
+    "Date": "",
+    "Journal": "medRxiv",
+    "Git repository": "https://github.com/ratschlab/projects2026-kidney-kpmp-analysis",
+    "Summary": "DeepSpot-M applied to non-cancerous kidney disease: transcriptome-wide virtual spatial transcriptomics from H&E for KPMP kidney biopsies, linked to molecular programs of kidney injury, repair, fibrosis and kidney function.",
+    "Comments": "",
+    "link": "https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1",
+    "Title": "Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs"
+  },
+  {
+    "": "90",
+    "Year": "2026",
+    "Affiliation": "",
+    "Key word": "spatial transcriptomics,dataset,kidney",
+    "Date": "",
+    "Journal": "medRxiv",
+    "Git repository": "https://github.com/ratschlab/DeepSpotM",
+    "Summary": "1,534 H&E whole-slide images of kidney biopsies from 476 KPMP participants; 19,338 genes in each of ~5.46M spots predicted with DeepSpot-M; linked clinical and histopathological annotations.",
+    "Comments": "Paper: https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1",
+    "link": "https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas",
+    "Title": "KPMP virtual spatial transcriptomics atlas"
+  },
+  {
+    "": "91",
+    "Year": "2026",
+    "Affiliation": "",
+    "Key word": "spatial transcriptomics,dataset,kidney",
+    "Date": "",
+    "Journal": "medRxiv",
+    "Git repository": "https://github.com/ratschlab/DeepSpotM",
+    "Summary": "49 H&E sections of KPMP 10x Xenium kidney biopsies; 19,338 genes in each of ~1.64M cells predicted with DeepSpot-M; includes the measured Xenium panel.",
+    "Comments": "Paper: https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1",
+    "link": "https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics",
+    "Title": "KPMP Xenium virtual spatial transcriptomics"
   }
 ]

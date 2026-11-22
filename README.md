@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-85-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-91-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -11,9 +11,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🧬 Single-cell & RNA Foundation Models](#single-cell-foundation-models) (9)
 - [🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)](#pathology-foundation-models) (2)
 - [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (4)
-- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (20)
-- [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (9)
-- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (19)
+- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (23)
 - [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (10)
 - [🔎 Single-cell Analysis & Dynamics](#single-cell-analysis) (9)
 - [🧫 Computational Pathology (WSI)](#computational-pathology-wsi) (13)
@@ -21,7 +19,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🤖 LLM Agents & Reasoning](#agents-and-reasoning) (4)
 - [💡 Interpretability & Sparse Autoencoders](#interpretability-sae) (4)
 - [🧩 Genomic / DNA Language Models](#genomic-language-models) (2)
-- [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (2)
+- [🏁 Benchmarks, Datasets & Toolkits](#benchmarks-datasets-tools) (4)
 - [📚 Surveys & Perspectives](#surveys-and-perspectives) (3)
 
 ---
@@ -83,6 +81,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 | Title | Venue | Year | Topics | Links |
 |---|:--:|:--:|---|:--:|
 | [DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) | medRxiv | 2026 | spatial transcriptomics, H2ST, FM | [[paper]](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
+| [Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1) | medRxiv | 2026 | spatial transcriptomics, H2ST, kidney | [[paper]](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/projects2026-kidney-kpmp-analysis) |
 | [GeneRAG: A Retrieval-Augmented Framework for Spatially Resolved Gene Expression Prediction](https://github.com/HyeongSubKim/GeneRAG) | MICCAI | 2026 | spatial transcriptomics, H2ST, RAG, zero-shot | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/HyeongSubKim/GeneRAG) |
 | [STAMP: Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](https://github.com/Hanminghao/STAMP) | ICLR | 2026 | spatial transcriptomics, dataset | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/Hanminghao/STAMP) |
 | [DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3) | medRxiv | 2025 | spatial transcriptomics, H2ST | [[paper]](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpot) |
@@ -240,6 +239,8 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 |---|:--:|:--:|---|:--:|
 | [DALPHIN: Benchmarking Digital Pathology AI Copilots Against Pathologists on an Open Multicentric Dataset](https://dalphin.grand-challenge.org/) | — | — | dataset, Reasoning | [[paper]](https://dalphin.grand-challenge.org/) |
 | [Accelerating Data Processing and Benchmarking of AI Models for Pathology](https://github.com/mahmoodlab/trident/) | — | — | Toolkit | [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/mahmoodlab/trident/) |
+| [KPMP virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas) | medRxiv | 2026 | spatial transcriptomics, dataset, kidney | [[paper]](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
+| [KPMP Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics) | medRxiv | 2026 | spatial transcriptomics, dataset, kidney | [[paper]](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics) [![code](https://img.shields.io/badge/code-black?logo=github)](https://github.com/ratschlab/DeepSpotM) |
 
 [⬆ back to top](#contents)
 
