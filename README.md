@@ -2,7 +2,7 @@
 
 > A curated list of papers on **artificial intelligence for computational pathology, spatial transcriptomics, and single-cell genomics** — with a focus on **predicting gene expression from histology images (H2ST)**, multimodal histo-genomic modeling, foundation models, and biomedical reasoning agents.
 
-![papers](https://img.shields.io/badge/papers-85-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+![papers](https://img.shields.io/badge/papers-88-blue) ![with%20code](https://img.shields.io/badge/with%20code-52-brightgreen) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
 Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Communications, Science and more (mostly 2025–2026). Each entry links to the paper or its official code. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -11,9 +11,7 @@ Papers span venues including ICML, CVPR, ICLR, NeurIPS, AAAI, Nature / Nature Co
 - [🧬 Single-cell & RNA Foundation Models](#single-cell-foundation-models) (9)
 - [🔬 Pathology Foundation Models (Knowledge Distillation & Multimodal)](#pathology-foundation-models) (2)
 - [🗺️ Spatial-omics Foundation Models](#spatial-foundation-models) (4)
-- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (20)
-- [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (9)
-- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (19)
+- [🖼️➡️🧬 Histology → Gene Expression Prediction](#histology-to-gene-expression) (22)
 - [📈 Spatial Transcriptomics Analysis](#spatial-transcriptomics-analysis) (10)
 - [🔎 Single-cell Analysis & Dynamics](#single-cell-analysis) (9)
 - [🧫 Computational Pathology (WSI)](#computational-pathology-wsi) (13)
